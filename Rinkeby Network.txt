@@ -1,0 +1,26 @@
+{
+  "name": "Rinkeby Testnet",
+  "chain": "ETH",
+  "rpc": [
+    "https://rinkeby.infura.io/v3/bb1c986482fc4f03bcdc1ce8b031b462",
+    "https://api.rinkeby.io/eth"
+  ],
+  "faucets": ["https://faucet.rinkeby.io"],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://www.rinkeby.io",
+  "shortName": "rinkeby",
+  "chainId": 4,
+  "networkId": 4,
+  "icon": "ethereum",
+  "explorers": [{
+    "name": "Rinkeby Etherscan",
+    "url": "https://rinkeby.etherscan.io",
+    "icon": "etherscan",
+    "standard": "EIP3091"
+  }]
+}
